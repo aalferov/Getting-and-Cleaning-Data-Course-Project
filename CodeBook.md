@@ -1,9 +1,15 @@
-
 CODEBOOK
 
 This document describes the code inside run_analysis.R.
 
+Downloading and loading data
 
+Downloads the UCI HAR zip file if it doesn't exist
+Reads the activity labels to variable activity_labels
+Reads the column names of data to variable features
+Extracts features mean & std
+Reads the training data to training_data dataframe
+Reads the test data to test_data dataframe
 
 * label
 * subject
