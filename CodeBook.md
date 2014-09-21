@@ -15,6 +15,7 @@ This document describes the code inside run_analysis.R.
     11. Makes tidy dataset tidy_df with mean of each variable
     12. Writes tidy_df dataser to tidy_data.txt file
 
+The list of column names in the tidy dataset:
 * label
 * subject
 * tBodyAcc-mean()-X
