@@ -70,10 +70,3 @@ tidy_df <- dcast(molten_df, label + subject ~ variable, mean)
 
 ## save tidy dataset to file
 write.table(tidy_df, file="tidy_data.txt", quote=FALSE, row.names=FALSE, sep="\t")
-
-## write codebook to disk
-write.table(paste("* ", names(tidy_df), sep=""), file="CodeBook.md", quote=FALSE,
-            row.names=FALSE, col.names=FALSE, sep="\t")
-
-
-
